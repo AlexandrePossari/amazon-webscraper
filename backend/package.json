@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrePossari/carvalhoAleixoInc-Tecnical-Challenge.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "AlexandrePossari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrePossari/carvalhoAleixoInc-Tecnical-Challenge/issues"
+  },
+  "homepage": "https://github.com/AlexandrePossari/carvalhoAleixoInc-Tecnical-Challenge#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "jsdom": "^24.1.0"
+  }
+}
