@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexandrePossari/carvalhoAleixoInc-Tecnical-Challenge.git"
+    "url": "git+https://github.com/AlexandrePossari/Amazon-webscraper.git"
   },
   "keywords": [
     "nodejs",
@@ -19,9 +19,9 @@
   "author": "AlexandrePossari",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexandrePossari/carvalhoAleixoInc-Tecnical-Challenge/issues"
+    "url": "https://github.com/AlexandrePossari/Amazon-webscraper/issues"
   },
-  "homepage": "https://github.com/AlexandrePossari/carvalhoAleixoInc-Tecnical-Challenge#readme",
+  "homepage": "https://github.com/AlexandrePossari/Amazon-webscraper#readme",
   "dependencies": {
     "axios": "^1.7.2",
     "express": "^4.19.2",
