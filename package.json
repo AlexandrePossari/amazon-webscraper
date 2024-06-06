@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexandrePossari/Amazon-webscraper.git"
+    "url": "git+https://github.com/AlexandrePossari/amazon-webscraper.git"
   },
   "keywords": [
     "nodejs",
@@ -19,9 +19,9 @@
   "author": "AlexandrePossari",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexandrePossari/Amazon-webscraper/issues"
+    "url": "https://github.com/AlexandrePossari/amazon-webscraper/issues"
   },
-  "homepage": "https://github.com/AlexandrePossari/Amazon-webscraper#readme",
+  "homepage": "https://github.com/AlexandrePossari/amazon-webscraper#readme",
   "dependencies": {
     "axios": "^1.7.2",
     "express": "^4.19.2",
