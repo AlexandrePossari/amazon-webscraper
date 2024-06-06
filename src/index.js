@@ -1,6 +1,8 @@
 const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
 const apiRoutes = require('../src/routes/api');
+const pagesRoutes = require('../src/routes/pages');
 
 const app = express();
 
@@ -13,7 +15,10 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use(express.static(path.join(__dirname, 'public')))
+
 app.use('/api', apiRoutes);
+app.use('/', pagesRoutes);
 
 app.use((error, req, res, next) => {
     console.log(error);
